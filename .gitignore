@@ -1,0 +1,9 @@
+*.pyc
+
+.chainlit/
+.files/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+chainlit.md

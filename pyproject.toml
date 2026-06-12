@@ -1,0 +1,26 @@
+[project]
+name = "agentexample"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "pydantic (>=2.13.4,<3.0.0)",
+    "chainlit (>=2.11.1,<3.0.0)",
+    "langchain-core (>=1.4.5,<2.0.0)",
+    "langgraph (>=1.2.4,<2.0.0)",
+    "langchain-mistralai (>=1.1.5,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+black = "^26.5.1"
+ruff = "^0.15.17"
+
