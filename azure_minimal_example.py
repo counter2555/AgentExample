@@ -8,7 +8,8 @@ llm = AzureAIOpenAIApiChatModel(
     model="gpt-5.1-codex-mini",       
     max_completion_tokens=512,       
     model_kwargs={
-        "reasoning_effort": "low"     
+        "reasoning_effort": "low"
+    }
 )
 
 prompt = ChatPromptTemplate.from_messages([
